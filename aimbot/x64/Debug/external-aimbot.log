@@ -1,0 +1,79 @@
+﻿  main.cpp
+  The contents of <string_view> are available only with C++17 or later.
+C:\Users\erikh\Desktop\aimbot\memory.h(18,20): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\yvals.h(341): message : see declaration of 'std'
+C:\Users\erikh\Desktop\aimbot\memory.h(18,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\erikh\Desktop\aimbot\memory.h(18,32): error C2146: syntax error: missing ')' before identifier 'processName'
+C:\Users\erikh\Desktop\aimbot\memory.h(18,32): error C3646: 'processName': unknown override specifier
+C:\Users\erikh\Desktop\aimbot\memory.h(18,8): error C2059: syntax error: ')'
+C:\Users\erikh\Desktop\aimbot\memory.h(18,45): error C2143: syntax error: missing ';' before 'noexcept'
+C:\Users\erikh\Desktop\aimbot\memory.h(18,45): error C2059: syntax error: 'noexcept'
+C:\Users\erikh\Desktop\aimbot\memory.h(18,8): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\erikh\Desktop\aimbot\memory.h(48,51): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\yvals.h(341): message : see declaration of 'std'
+C:\Users\erikh\Desktop\aimbot\memory.h(48,63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\erikh\Desktop\aimbot\memory.h(48,63): error C2146: syntax error: missing ')' before identifier 'moduleName'
+C:\Users\erikh\Desktop\aimbot\memory.h(48,63): error C3646: 'moduleName': unknown override specifier
+C:\Users\erikh\Desktop\aimbot\memory.h(48,73): error C2059: syntax error: ')'
+C:\Users\erikh\Desktop\aimbot\memory.h(48,75): error C2143: syntax error: missing ';' before 'const'
+C:\Users\erikh\Desktop\aimbot\memory.h(48,81): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\erikh\Desktop\aimbot\memory.h(48,81): error C2059: syntax error: 'noexcept'
+C:\Users\erikh\Desktop\aimbot\memory.h(49,2): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  The contents of <numbers> are available only with C++20 or later.
+C:\Users\erikh\Desktop\aimbot\vector.h(39,54): error C3083: 'numbers': the symbol to the left of a '::' must be a type
+C:\Users\erikh\Desktop\aimbot\vector.h(39,63): error C2039: 'pi_v': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\cmath(711): message : see declaration of 'std'
+C:\Users\erikh\Desktop\aimbot\vector.h(39,1): error C2065: 'pi_v': undeclared identifier
+C:\Users\erikh\Desktop\aimbot\vector.h(39,68): error C2062: type 'float' unexpected
+C:\Users\erikh\Desktop\aimbot\vector.h(40,38): error C3083: 'numbers': the symbol to the left of a '::' must be a type
+C:\Users\erikh\Desktop\aimbot\vector.h(40,47): error C2039: 'pi_v': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\cmath(711): message : see declaration of 'std'
+C:\Users\erikh\Desktop\aimbot\vector.h(36,27): error C3615: constexpr function 'Vector3::ToAngle' cannot result in a constant expression
+C:\Users\erikh\Desktop\aimbot\vector.h(41): message : failure was caused by control reaching the end of a constexpr function
+C:\Users\erikh\Desktop\aimbot\vector.h(42,2): error C2059: syntax error: '}'
+C:\Users\erikh\Desktop\aimbot\vector.h(42,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\erikh\Desktop\aimbot\vector.h(45,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\erikh\Desktop\aimbot\vector.h(45,2): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\erikh\Desktop\aimbot\main.cpp(39,41): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Memory'
+C:\Users\erikh\Desktop\aimbot\main.cpp(39,41): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\erikh\Desktop\aimbot\main.cpp(39,13): error C2737: 'memory': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(42,28): error C3536: 'memory': cannot be used before it is initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(42,13): error C2737: 'client': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(43,13): error C2737: 'engine': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(55,63): error C3536: 'client': cannot be used before it is initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(55,14): error C2737: 'localPlayer': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(56,64): error C3536: 'localPlayer': cannot be used before it is initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(56,14): error C2737: 'localTeam': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(59,14): error C2737: 'localEyePosition': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(62,63): error C3536: 'engine': cannot be used before it is initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(62,14): error C2737: 'clientState': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(65,42): error C3536: 'clientState': cannot be used before it is initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(64,14): error C2737: 'localPlayerId': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(67,14): error C2737: 'viewAngles': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(68,14): error C2737: 'aimPunch': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(76,15): error C2737: 'player': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(78,7): error C3536: 'player': cannot be used before it is initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(78,75): error C3536: 'localTeam': cannot be used before it is initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(81,20): error C2062: type 'bool' unexpected
+C:\Users\erikh\Desktop\aimbot\main.cpp(87,7): error C3536: 'localPlayerId': cannot be used before it is initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(89,16): error C2737: 'boneMatrix': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(94,18): error C2062: type 'float' unexpected
+C:\Users\erikh\Desktop\aimbot\main.cpp(97,5): error C2143: syntax error: missing ';' before '}'
+C:\Users\erikh\Desktop\aimbot\main.cpp(100,22): error C3536: 'localEyePosition': cannot be used before it is initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(101,6): error C2065: 'playerHeadPosition': undeclared identifier
+C:\Users\erikh\Desktop\aimbot\main.cpp(102,17): error C3536: 'viewAngles': cannot be used before it is initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(103,5): error C3536: 'aimPunch': cannot be used before it is initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(99,16): error C2737: 'angle': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(105,38): error C3536: 'angle': cannot be used before it is initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(105,49): error C2661: 'hypot': no overloaded function takes 1 arguments
+C:\Users\erikh\Desktop\aimbot\main.cpp(105,16): error C2737: 'fov': const object must be initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(107,8): error C3536: 'fov': cannot be used before it is initialized
+C:\Users\erikh\Desktop\aimbot\main.cpp(109,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\erikh\Desktop\aimbot\main.cpp(110,18): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\erikh\Desktop\aimbot\main.cpp(116,8): error C2065: 'bestAngle': undeclared identifier
+C:\Users\erikh\Desktop\aimbot\main.cpp(117,26): error C2065: 'clientState': undeclared identifier
+C:\Users\erikh\Desktop\aimbot\main.cpp(117,74): error C2065: 'viewAngles': undeclared identifier
+C:\Users\erikh\Desktop\aimbot\main.cpp(117,87): error C2065: 'bestAngle': undeclared identifier
+C:\Users\erikh\Desktop\aimbot\main.cpp(120,2): error C2059: syntax error: 'return'
+C:\Users\erikh\Desktop\aimbot\main.cpp(121,1): error C2059: syntax error: '}'
+C:\Users\erikh\Desktop\aimbot\main.cpp(121,1): error C2143: syntax error: missing ';' before '}'
